@@ -94,7 +94,7 @@ const Hero = () => {
     };
 
     return (
-        <div ref={ref} className="w-full h-screen pt-20 bg-white rouded-br-[100px]">
+        <div ref={ref} className="w-full h-screen pt-20 bg-white m-auto rouded-br-[100px]">
             <div className="flex flex-col p-6">
                 <div className="flex items-center justify-center">
                     <div className="flex flex-col items-center justify-center md:flex-1 md:items-start">

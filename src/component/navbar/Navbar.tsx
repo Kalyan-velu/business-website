@@ -16,7 +16,7 @@ const Navbar = () => {
         setSideMenu(!sideMenu);
     };
     return (
-        <div className="fixed w-full h-20 z-[100] bg-white shadow-lg shadow-gray-300 top-0 left-0 right-0">
+        <div className="fixed w-full h-16 z-[100] bg-white shadow-lg shadow-gray-300 top-0 left-0 right-0">
             <div className="flex items-center justify-between w-full h-full p-6">
                 <div className="md:flex-1">
                     <Logo/>
@@ -77,9 +77,9 @@ const Navbar = () => {
                             <Link href="/">
                                 <li className="py-4">About</li>
                             </Link>
-                            <a href="#business">
+                            <Link href="/">
                                 <li className="py-4">Business</li>
-                            </a>
+                            </Link>
                             <Link href="/">
                                 <li className="py-4">Services</li>
                             </Link>
