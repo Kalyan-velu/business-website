@@ -2,12 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-  html{
-    @apply scroll-smooth
+@layer base {
+  html {
+    @apply scroll-smooth;
   }
-  body{
-    @apply bg-[#f9f9fc] font-neue;
+
+  body {
+    @apply bg-[#F9F9FC] font-neue;
   }
 }
 /*:root {*/
